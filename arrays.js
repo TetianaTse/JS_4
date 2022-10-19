@@ -12,7 +12,9 @@ let min = [0];
 let minNumber;
 let max = [0];
 let maxNumber;
-document.write(arr);
+
+document.write('<p>Дан массив: [' + arr + '].');
+
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] > 0) {
         amountPositive += 1;
@@ -55,5 +57,5 @@ document.write('<p>Количество четных положительных 
 document.write('<p>Сумма четных положительных элементов равна: ' + sumPositiveHonest + ';</p>'); //292
 document.write('<p>Сумма нечетных положительных элементов равна: ' + sumPositiveOdd + '; '); // 146
 document.write('<p>Произведение положительных элементов равно: ' + multPositive + '; '); // 9,961812493074432e+17
-document.write('<p>Обнуление всех элементов массива кроме максимального: ', arr + '</p>'); 
+document.write('<p>Обнуление всех элементов массива кроме максимального: [' + arr + '].</p>'); 
 
